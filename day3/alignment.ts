@@ -1,0 +1,6 @@
+
+type Alignoptions = ""
+
+interface alignment{
+
+}
