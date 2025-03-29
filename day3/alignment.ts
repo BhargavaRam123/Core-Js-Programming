@@ -1,6 +1,0 @@
-
-type Alignoptions = ""
-
-interface alignment{
-
-}
