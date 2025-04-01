@@ -35,3 +35,10 @@ console.log(endsWithExample.endsWith("World"));
  */
 const indexOfExample = "Hello World";
 console.log(indexOfExample.indexOf("o")); // Output: 4
+
+/**
+ * String.prototype.lastIndexOf()
+ * Returns the position of the last occurrence of a value in a string
+**/
+const lastIndexOfExample = "Hello World";
+console.log(lastIndexOfExample.lastIndexOf("o")); // Output: 7
