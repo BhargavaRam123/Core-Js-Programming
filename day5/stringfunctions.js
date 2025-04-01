@@ -28,3 +28,10 @@ console.log(includesExample.includes("World")); // Output: true
  */
 const endsWithExample = "Hello World";
 console.log(endsWithExample.endsWith("World"));
+
+/**
+ * String.prototype.indexOf()
+ * Returns the position of the first occurrence of a value in a string
+ */
+const indexOfExample = "Hello World";
+console.log(indexOfExample.indexOf("o")); // Output: 4
