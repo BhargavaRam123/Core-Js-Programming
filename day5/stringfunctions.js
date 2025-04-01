@@ -56,3 +56,10 @@ console.log(padEndExample.padEnd(10, ".")); // Output: "Hello....."
  */
 const padStartExample = "5";
 console.log(padStartExample.padStart(3, "0")); // Output: "005"
+
+/**
+ * String.prototype.repeat()
+ * Returns a new string with a number of copies of the original string
+ */
+const repeatExample = "Hello";
+console.log(repeatExample.repeat(3)); // Output: "HelloHelloHello"
