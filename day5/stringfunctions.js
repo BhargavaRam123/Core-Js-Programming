@@ -14,3 +14,10 @@ console.log(charCodeAtExample.charCodeAt(0)); // Output: 72
  */
 const concatExample = "Hello";
 console.log(concatExample.concat(" ", "World")); // Output: "Hello World"
+
+/**
+ * String.prototype.includes()
+ * Checks if a string contains the specified string/characters
+ */
+const includesExample = "Hello World";
+console.log(includesExample.includes("World")); // Output: true
