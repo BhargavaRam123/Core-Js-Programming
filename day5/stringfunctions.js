@@ -100,3 +100,11 @@ console.log(sliceExample.slice(0, 5)); // Output: "Hello"
  */
 const splitExample = "Hello World";
 console.log(splitExample.split(" ")); // Output: ["Hello", "World"]
+
+
+/**
+ * String.prototype.startsWith()
+ * Checks whether a string begins with specified characters
+ */
+const startsWithExample = "Hello World";
+console.log(startsWithExample.startsWith("Hello")); // Output: true
