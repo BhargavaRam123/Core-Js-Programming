@@ -21,3 +21,10 @@ console.log(concatExample.concat(" ", "World")); // Output: "Hello World"
  */
 const includesExample = "Hello World";
 console.log(includesExample.includes("World")); // Output: true
+
+/**
+ * String.prototype.endsWith()
+ * Checks whether a string ends with the specified characters
+ */
+const endsWithExample = "Hello World";
+console.log(endsWithExample.endsWith("World"));
