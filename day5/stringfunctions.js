@@ -115,3 +115,12 @@ console.log(startsWithExample.startsWith("Hello")); // Output: true
  */
 const substringExample = "Hello World";
 console.log(substringExample.substring(0, 5)); // Output: "Hello"
+
+
+/**
+ * String.prototype.toLowerCase()
+ * Converts a string to lowercase letters
+ */
+const toLowerCaseExample = "Hello World";
+console.log(toLowerCaseExample.toLowerCase()); // Output: "hello world"
+
