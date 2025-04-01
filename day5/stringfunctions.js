@@ -93,3 +93,10 @@ console.log(searchExample.search("World")); // Output: 6
  */
 const sliceExample = "Hello World";
 console.log(sliceExample.slice(0, 5)); // Output: "Hello"
+
+/**
+ * String.prototype.split()
+ * Splits a string into an array of substrings
+ */
+const splitExample = "Hello World";
+console.log(splitExample.split(" ")); // Output: ["Hello", "World"]
