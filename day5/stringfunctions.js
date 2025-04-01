@@ -49,3 +49,10 @@ console.log(lastIndexOfExample.lastIndexOf("o")); // Output: 7
  */
 const padEndExample = "Hello";
 console.log(padEndExample.padEnd(10, ".")); // Output: "Hello....."
+
+/**
+ * String.prototype.padStart()
+ * Pads the current string with a given string to a certain length from the start
+ */
+const padStartExample = "5";
+console.log(padStartExample.padStart(3, "0")); // Output: "005"
