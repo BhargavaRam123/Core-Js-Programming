@@ -71,3 +71,10 @@ console.log(repeatExample.repeat(3)); // Output: "HelloHelloHello"
  */
 const replaceExample = "Hello World";
 console.log(replaceExample.replace("World", "JavaScript")); // Output: "Hello JavaScript"
+
+/**
+ * String.prototype.replaceAll()
+ * Returns a new string with all matches replaced
+ */
+const replaceAllExample = "Hello World World";
+console.log(replaceAllExample.replaceAll("World", "JavaScript"));
