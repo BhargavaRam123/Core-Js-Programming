@@ -86,3 +86,10 @@ console.log(replaceAllExample.replaceAll("World", "JavaScript"));
  */
 const searchExample = "Hello World";
 console.log(searchExample.search("World")); // Output: 6
+
+/**
+ * String.prototype.slice()
+ * Extracts a part of a string and returns a new string
+ */
+const sliceExample = "Hello World";
+console.log(sliceExample.slice(0, 5)); // Output: "Hello"
