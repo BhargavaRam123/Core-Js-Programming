@@ -42,3 +42,10 @@ console.log(indexOfExample.indexOf("o")); // Output: 4
 **/
 const lastIndexOfExample = "Hello World";
 console.log(lastIndexOfExample.lastIndexOf("o")); // Output: 7
+
+/**
+ * String.prototype.padEnd()
+ * Pads the current string with a given string to a certain length from the end
+ */
+const padEndExample = "Hello";
+console.log(padEndExample.padEnd(10, ".")); // Output: "Hello....."
