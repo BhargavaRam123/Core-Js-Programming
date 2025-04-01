@@ -7,3 +7,10 @@ console.log(charAtExample.charAt(0)); // Output: "H"
  */
 const charCodeAtExample = "Hello";
 console.log(charCodeAtExample.charCodeAt(0)); // Output: 72
+
+/**
+ * String.prototype.concat()
+ * Joins two or more strings and returns a new string
+ */
+const concatExample = "Hello";
+console.log(concatExample.concat(" ", "World")); // Output: "Hello World"
