@@ -124,3 +124,12 @@ console.log(substringExample.substring(0, 5)); // Output: "Hello"
 const toLowerCaseExample = "Hello World";
 console.log(toLowerCaseExample.toLowerCase()); // Output: "hello world"
 
+
+/**
+ * String.prototype.toUpperCase()
+ * Converts a string to uppercase letters
+ */
+const toUpperCaseExample = "Hello World";
+console.log(toUpperCaseExample.toUpperCase()); // Output: "HELLO WORLD"
+
+
