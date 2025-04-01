@@ -133,3 +133,12 @@ const toUpperCaseExample = "Hello World";
 console.log(toUpperCaseExample.toUpperCase()); // Output: "HELLO WORLD"
 
 
+/**
+ * String.prototype.trim()
+ * Removes whitespace from both ends of a string
+ */
+const trimExample = "  Hello World  ";
+console.log(trimExample.trim()); // Output: "Hello World"
+
+
+
