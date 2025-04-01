@@ -141,4 +141,11 @@ const trimExample = "  Hello World  ";
 console.log(trimExample.trim()); // Output: "Hello World"
 
 
+/**
+ * String.prototype.trimEnd() / trimRight()
+ * Removes whitespace from the end of a string
+ */
+const trimEndExample = "  Hello World  ";
+console.log(trimEndExample.trimEnd()); // Output: "  Hello World"
+
 
