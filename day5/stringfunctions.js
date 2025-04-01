@@ -149,3 +149,11 @@ const trimEndExample = "  Hello World  ";
 console.log(trimEndExample.trimEnd()); // Output: "  Hello World"
 
 
+/**
+ * String.prototype.trimStart() / trimLeft()
+ * Removes whitespace from the beginning of a string
+ */
+const trimStartExample = "  Hello World  ";
+console.log(trimStartExample.trimStart()); // Output: "Hello World  "
+
+
