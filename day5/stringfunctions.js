@@ -78,3 +78,11 @@ console.log(replaceExample.replace("World", "JavaScript")); // Output: "Hello Ja
  */
 const replaceAllExample = "Hello World World";
 console.log(replaceAllExample.replaceAll("World", "JavaScript"));
+
+
+/**
+ * String.prototype.search()
+ * Searches a string for a specified value or regular expression and returns the position
+ */
+const searchExample = "Hello World";
+console.log(searchExample.search("World")); // Output: 6
