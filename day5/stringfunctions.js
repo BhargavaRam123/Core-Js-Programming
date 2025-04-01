@@ -63,3 +63,11 @@ console.log(padStartExample.padStart(3, "0")); // Output: "005"
  */
 const repeatExample = "Hello";
 console.log(repeatExample.repeat(3)); // Output: "HelloHelloHello"
+
+
+/**
+ * String.prototype.replace()
+ * Searches a string for a value and returns a new string with the value(s) replaced
+ */
+const replaceExample = "Hello World";
+console.log(replaceExample.replace("World", "JavaScript")); // Output: "Hello JavaScript"
