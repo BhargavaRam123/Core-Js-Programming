@@ -108,3 +108,10 @@ console.log(splitExample.split(" ")); // Output: ["Hello", "World"]
  */
 const startsWithExample = "Hello World";
 console.log(startsWithExample.startsWith("Hello")); // Output: true
+
+/**
+ * String.prototype.substring()
+ * Extracts characters from a string, between two specified indices
+ */
+const substringExample = "Hello World";
+console.log(substringExample.substring(0, 5)); // Output: "Hello"
