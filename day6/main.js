@@ -117,3 +117,11 @@ var person3 = {
 };
 var person4 = Object.create(person3); // create a new object with person3 as the prototype
 console.log(person4); 
+
+//implementing Object.keys() function
+var person5 = {
+    name: "John",
+    surname: "Doe"
+};
+var keys = Object.keys(person5); // get the keys of the object
+console.log(keys); // ["name", "surname"]
