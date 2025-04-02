@@ -160,3 +160,11 @@ var arr7 = [1, 2, 3];
 var arr8 = [4, 5, 6];
 var arr9 = [...arr7, ...arr8]; // spreading the arrays
 console.log(arr9); // [1, 2, 3, 4, 5, 6]
+
+//looping over an array
+var cars = ["BMW", "Volvo", "Mini"];
+var text = "";
+for(let a in cars){
+    text += cars[a] + " ";
+}
+console.log(text); // BMW Volvo Mini
