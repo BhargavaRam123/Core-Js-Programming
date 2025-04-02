@@ -44,3 +44,7 @@ const val3 = arr3.some((item) => {
     return item > 4;
 })
 console.log(val3) // true    
+
+//implementing array indexOf() function
+const arr4 = ["ravi","steve","john","steve"];
+console.log(arr4.indexOf("steve")) // 1
