@@ -223,8 +223,17 @@ function sum1(...args){
 console.log(sum1(1,2,3,4,5)) // 15
 
 //implementing find function
-var arr = [1,2,33,4,5]
+var arr = [1,2,33,44,54]
 console.log(arr.find((val)=>{
     return  val>18
 }))
+
+//implementing findindex function
+console.log(arr.findIndex((val)=>{
+    return  val>18
+}))
+
+//implementing math.trunc function
+var num = 5.6
+console.log(Math.trunc(num)) // 5
 
