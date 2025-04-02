@@ -262,3 +262,8 @@ console.log(Number.isInteger(num4)) // false
 //implementing math.issafeinteger function
 var num5 = 12345678901
 console.log(Number.isSafeInteger(num5)) // false
+
+
+//implementing math.isfinite function
+var num6 = 0/1
+console.log(Number.isFinite(num6)) // true
