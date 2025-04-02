@@ -109,3 +109,11 @@ Object.defineProperty(person2, "fullName", {
 });
 person2.fullName = "bhargav ram"; // set the full name to "bhargav ram"
 console.log(person2.fullName); // John Doe
+
+//implementing Object.create() function
+var person3 = {
+    name: "John",
+    surname: "Doe"
+};
+var person4 = Object.create(person3); // create a new object with person3 as the prototype
+console.log(person4); // John
