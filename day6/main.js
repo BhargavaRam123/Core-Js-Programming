@@ -154,3 +154,9 @@ console.log(name,age,city); // John
 var arr6 = [1, 2, 3];
 var [a, b, c] = arr6; // destructuring the array
 console.log(a,b,c); // 1 2 3
+
+//implementing spread operator
+var arr7 = [1, 2, 3];
+var arr8 = [4, 5, 6];
+var arr9 = [...arr7, ...arr8]; // spreading the arrays
+console.log(arr9); // [1, 2, 3, 4, 5, 6]
