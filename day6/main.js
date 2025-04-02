@@ -259,3 +259,6 @@ console.log(Number.MIN_SAFE_INTEGER)
 var num4 = 5.6
 console.log(Number.isInteger(num4)) // false
 
+//implementing math.issafeinteger function
+var num5 = 12345678901
+console.log(Number.isSafeInteger(num5)) // false
