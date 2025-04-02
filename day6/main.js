@@ -65,3 +65,13 @@ console.log(date1.toISOString())
 //implementing date.tojson() function
 const date2 = new Date();
 console.log(date2.toJSON())
+
+//This example creates a getter for a property called fullName:
+var person = {
+    name: "John",
+    surname: "Doe",
+    get fullName() {
+        return this.name + " " + this.surname;
+    }
+};
+console.log(person.fullName); // John Doe
