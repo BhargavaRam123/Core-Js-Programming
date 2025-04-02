@@ -244,3 +244,7 @@ console.log(Math.sign(num1)) // -1
 //implementing math.cubert function
 var num2 = 27
 console.log(Math.cbrt(num2)) // 3
+
+//implementing math.log10 function
+var num3 = 1000
+console.log(Math.log10(num3)) // 3
