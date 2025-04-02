@@ -272,3 +272,8 @@ console.log(Number.isFinite(num6)) // true
 var num7 = 2
 var num8 = 3
 console.log(Math.pow(num7,num8)) // 8
+
+//implementing exponentiation operator
+var z=2;
+z**=3 // 2^3 = 8
+console.log(z) // 8
