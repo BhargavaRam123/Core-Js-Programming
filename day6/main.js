@@ -168,3 +168,40 @@ for(let a in cars){
     text += cars[a] + " ";
 }
 console.log(text); // BMW Volvo Mini
+
+//implimenting javascript map
+const fruits1 = new Map(
+    [
+        ["key1",1],
+        ["key2",2],
+        ["key3",3],
+        ["key4",4],
+        
+    ]
+)
+console.log(fruits1.get("key1")) // 1
+
+//implimenting sets in js
+var set = new Set()
+set.add(1)
+set.add(2)  
+set.add(2)
+console.log(set) // Set(2) { 1, 2 }
+
+//implimenting promises in js
+const p = new Promise((resolve,reject)=>
+{
+    setTimeout(() => {
+        // resolve("success")
+        reject("rejected")
+    }, 2000);
+})
+p
+.then((m)=>{
+    console.log("message from promise",m)
+})
+.catch((e)=>
+{
+    console.log("error occured ",e)
+}
+)
