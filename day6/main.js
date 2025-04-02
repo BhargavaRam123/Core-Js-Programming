@@ -75,3 +75,19 @@ var person = {
     }
 };
 console.log(person.fullName); // John Doe
+
+//This example creates a setter and a getter for the language property:
+
+var person1 = {
+    name: "John",
+    surname: "Doe",
+    language: "en",
+    get lang() {
+        return this.language.toUpperCase();
+    },
+    set lang(lang) {
+        this.language = lang.toUpperCase();
+    }
+};
+person1.lang = "hn"; // set the language to "hn"
+console.log(person1.lang); // EN
