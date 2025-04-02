@@ -237,3 +237,6 @@ console.log(arr.findIndex((val)=>{
 var num = 5.6
 console.log(Math.trunc(num)) // 5
 
+//implementing math.sign function
+var num1 = 252
+console.log(Math.sign(num1)) // -1
