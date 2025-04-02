@@ -125,3 +125,18 @@ var person5 = {
 };
 var keys = Object.keys(person5); // get the keys of the object
 console.log(keys); // ["name", "surname"]
+
+//implementing Object.bind() function
+var person6 = {
+    firstName:"John",
+    lastName: "Doe",
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+};
+var person7 = {
+    firstName:"Steve",
+    lastName: "Smith"
+};
+var fullName = person6.fullName.bind(person7); // bind the fullName function to person7
+console.log(fullName()); // Steve Smith
