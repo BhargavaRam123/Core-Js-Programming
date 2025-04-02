@@ -193,8 +193,8 @@ const p = new Promise((resolve,reject)=>
 {
     setTimeout(() => {
         // resolve("success")
-        reject("rejected")
-    }, 2000);
+        // reject("rejected")
+    }, 0);
 })
 p
 .then((m)=>{
@@ -205,3 +205,9 @@ p
     console.log("error occured ",e)
 }
 )
+
+//implementing default parameters
+function multiply(a,b=2){
+    return a*b
+}
+console.log(multiply(5)) // 5
