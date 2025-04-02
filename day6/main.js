@@ -116,4 +116,4 @@ var person3 = {
     surname: "Doe"
 };
 var person4 = Object.create(person3); // create a new object with person3 as the prototype
-console.log(person4); // John
+console.log(person4); 
