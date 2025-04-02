@@ -221,3 +221,10 @@ function sum1(...args){
     return s
 }
 console.log(sum1(1,2,3,4,5)) // 15
+
+//implementing find function
+var arr = [1,2,33,4,5]
+console.log(arr.find((val)=>{
+    return  val>18
+}))
+
