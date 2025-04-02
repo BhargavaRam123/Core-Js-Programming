@@ -52,3 +52,8 @@ console.log(arr4.indexOf("steve")) // 1
 //implementing array lastIndexOf() function
 const arr5 = ["ravi","steve","john","steve"];
 console.log(arr5.lastIndexOf("steve")) // 3
+
+
+//implementing date.now() function
+const date = new Date();
+console.log(date.getTime()) 
