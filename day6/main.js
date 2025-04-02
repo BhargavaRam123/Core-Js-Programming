@@ -48,3 +48,7 @@ console.log(val3) // true
 //implementing array indexOf() function
 const arr4 = ["ravi","steve","john","steve"];
 console.log(arr4.indexOf("steve")) // 1
+
+//implementing array lastIndexOf() function
+const arr5 = ["ravi","steve","john","steve"];
+console.log(arr5.lastIndexOf("steve")) // 3
