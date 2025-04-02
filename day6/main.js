@@ -28,3 +28,19 @@ const val = arr1.reduceRight((accumulator, currentValue) => {
     return accumulator + currentValue;
 }, 0);
 console.log(val)
+
+
+//implementing array every() function
+const arr2 = [1, 2, 3, 4, 5];
+const val2 = arr2.every((item) => {
+    return item > 0;
+})
+
+console.log(val2) // false
+
+//implementing array some() function
+const arr3 = [1, 2, 3, 4, 5];
+const val3 = arr3.some((item) => {
+    return item > 4;
+})
+console.log(val3) // true    
