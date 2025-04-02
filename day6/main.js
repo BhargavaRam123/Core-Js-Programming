@@ -61,3 +61,7 @@ console.log(date.getTime())
 //implementing date.toisostring() function
 const date1 = new Date();
 console.log(date1.toISOString()) 
+
+//implementing date.tojson() function
+const date2 = new Date();
+console.log(date2.toJSON())
