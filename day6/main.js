@@ -211,3 +211,13 @@ function multiply(a,b=2){
     return a*b
 }
 console.log(multiply(5)) // 5
+
+//implementing function rest parameters
+function sum1(...args){
+    let s = 0;
+    for(let i=0;i<args.length;i++){
+        s += args[i]
+    }
+    return s
+}
+console.log(sum1(1,2,3,4,5)) // 15
