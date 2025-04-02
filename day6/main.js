@@ -57,3 +57,7 @@ console.log(arr5.lastIndexOf("steve")) // 3
 //implementing date.now() function
 const date = new Date();
 console.log(date.getTime()) 
+
+//implementing date.toisostring() function
+const date1 = new Date();
+console.log(date1.toISOString()) 
