@@ -149,3 +149,8 @@ var person8 = {
 };
 var {name, age, city} = person8; // destructuring the object
 console.log(name,age,city); // John
+
+//implementing array destructuring
+var arr6 = [1, 2, 3];
+var [a, b, c] = arr6; // destructuring the array
+console.log(a,b,c); // 1 2 3
