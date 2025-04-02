@@ -267,3 +267,8 @@ console.log(Number.isSafeInteger(num5)) // false
 //implementing math.isfinite function
 var num6 = 0/1
 console.log(Number.isFinite(num6)) // true
+
+//implementing math.power function
+var num7 = 2
+var num8 = 3
+console.log(Math.pow(num7,num8)) // 8
