@@ -19,3 +19,12 @@ arr.forEach(function(item){
 }
 )
 console.log(sum) 
+
+
+//implementing reduceright function
+const arr1 = [1, 2, 3, 4, 5];
+const val = arr1.reduceRight((accumulator, currentValue) => {
+    // console.log(accumulator, currentValue)
+    return accumulator + currentValue;
+}, 0);
+console.log(val)
