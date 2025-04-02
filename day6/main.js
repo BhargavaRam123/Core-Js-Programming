@@ -240,3 +240,7 @@ console.log(Math.trunc(num)) // 5
 //implementing math.sign function
 var num1 = 252
 console.log(Math.sign(num1)) // -1
+
+//implementing math.cubert function
+var num2 = 27
+console.log(Math.cbrt(num2)) // 3
