@@ -277,3 +277,8 @@ console.log(Math.pow(num7,num8)) // 8
 var z=2;
 z**=3 // 2^3 = 8
 console.log(z) // 8
+
+//implementing object entries function
+var obj = {name: "John", age: 30, city: "New York"};
+var text = Object.entries(obj).flat()
+console.log(text) 
