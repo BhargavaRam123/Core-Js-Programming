@@ -91,3 +91,21 @@ var person1 = {
 };
 person1.lang = "hn"; // set the language to "hn"
 console.log(person1.lang); // EN
+
+//implementing defineproperty() function
+var person2 = {
+    name: "John",
+    surname: "Doe"
+};
+Object.defineProperty(person2, "fullName", {
+    get: function() {
+        return this.name + " " + this.surname;
+    },
+    set: function(value) {
+        var parts = value.split(" ");
+        this.name = parts[0];
+        this.surname = parts[1];
+    }
+});
+person2.fullName = "bhargav ram"; // set the full name to "bhargav ram"
+console.log(person2.fullName); // John Doe
