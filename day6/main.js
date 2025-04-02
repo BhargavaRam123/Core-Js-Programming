@@ -253,3 +253,9 @@ console.log(Math.log10(num3)) // 3
 console.log(Number.EPSILON)
 console.log(Number.MAX_SAFE_INTEGER)
 console.log(Number.MIN_SAFE_INTEGER)
+
+
+//implementing math.isinteger function
+var num4 = 5.6
+console.log(Number.isInteger(num4)) // false
+
