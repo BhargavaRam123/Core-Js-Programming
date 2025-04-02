@@ -140,3 +140,12 @@ var person7 = {
 };
 var fullName = person6.fullName.bind(person7); // bind the fullName function to person7
 console.log(fullName()); // Steve Smith
+
+//implementing object destructuring
+var person8 = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+var {name, age, city} = person8; // destructuring the object
+console.log(name,age,city); // John
