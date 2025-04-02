@@ -248,3 +248,8 @@ console.log(Math.cbrt(num2)) // 3
 //implementing math.log10 function
 var num3 = 1000
 console.log(Math.log10(num3)) // 3
+
+//implementing epsilon, maxsafeint and minsafeint
+console.log(Number.EPSILON)
+console.log(Number.MAX_SAFE_INTEGER)
+console.log(Number.MIN_SAFE_INTEGER)
