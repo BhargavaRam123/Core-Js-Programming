@@ -31,3 +31,15 @@ function scopeTest() {
 }
 
 scopeTest();
+
+
+//function declaration vs function expression
+function greet() {
+  console.log("Hello from function declaration!");
+}
+greet(); // "Hello from function declaration!"
+//in the function expression hoisting only happens if we use var
+const greetExpression = function() {    
+  console.log("Hello from function expression!");
+}
+greetExpression(); // "Hello from function expression!"
