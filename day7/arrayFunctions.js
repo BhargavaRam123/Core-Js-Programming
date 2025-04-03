@@ -35,3 +35,10 @@ const [first, second] = colors;
 
 console.log(first);  // 'red'
 console.log(second); // 'green'
+
+//skippping elements in destructuring
+const numbers6 = [10, 20, 30, 40, 50];
+const [, second1, third] = numbers6;
+
+console.log(second1); // 20
+console.log(third);  // 30
