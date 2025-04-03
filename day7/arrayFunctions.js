@@ -28,3 +28,10 @@ numbers5.forEach(function(num) {
 
 // Using arrow function
 numbers5.forEach(num => console.log(num * 2));
+
+//destructuring an array
+const colors = ['red', 'green', 'blue', 'yellow'];
+const [first, second] = colors;
+
+console.log(first);  // 'red'
+console.log(second); // 'green'
