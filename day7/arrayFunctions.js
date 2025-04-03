@@ -18,3 +18,13 @@ const sum = numbers2.reduce(function(accumulator, currentValue) {
   return accumulator + currentValue;
 }, 0); // 0 is the initial value
 console.log(sum); // 15
+
+//implementing forEach function
+const numbers5  = [1, 2, 3, 4, 5];
+numbers5.forEach(function(num) {
+  console.log(num * 2);
+});
+// Logs: 2, 4, 6, 8, 10
+
+// Using arrow function
+numbers5.forEach(num => console.log(num * 2));
