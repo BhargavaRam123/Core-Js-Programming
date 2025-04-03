@@ -11,3 +11,10 @@ const evenNumbers = numbers1.filter(function(num) {
   return num % 2 === 0;
 });
 console.log(evenNumbers); // [2, 4, 6]
+
+//implimenting reduce function
+const numbers2 = [1, 2, 3, 4, 5];
+const sum = numbers2.reduce(function(accumulator, currentValue) {
+  return accumulator + currentValue;
+}, 0); // 0 is the initial value
+console.log(sum); // 15
