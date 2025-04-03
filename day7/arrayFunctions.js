@@ -42,3 +42,10 @@ const [, second1, third] = numbers6;
 
 console.log(second1); // 20
 console.log(third);  // 30
+
+//using rest operator in destructuring
+const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+const [first1, ...rest] = fruits;
+
+console.log(first1); // 'apple'
+console.log(rest);  // ['banana', 'orange', 'grape', 'kiwi']
