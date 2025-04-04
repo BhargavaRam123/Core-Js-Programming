@@ -22,3 +22,11 @@ person[asymb] = 20
 
 console.log(person)
 console.log(person[nsymb])
+
+//symbols dont show in regular enumerations 
+
+
+for(key in person)
+{
+    console.log("key value",key)
+}
