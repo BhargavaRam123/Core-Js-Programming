@@ -44,3 +44,18 @@ const product = {
 };
 
 console.log(product)
+
+//implementing error handling in js
+
+function divide(a, b) {
+    try {
+        if (b === 0) {
+            throw new Error("Division by zero is not allowed.");
+        }
+        return a / b;
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+console.log(divide(10, 0)); // Error: Division by zero is not allowed.
