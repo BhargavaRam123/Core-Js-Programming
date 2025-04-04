@@ -30,3 +30,17 @@ for(key in person)
 {
     console.log("key value",key)
 }
+
+//Using Symbols for "metadata"
+const metadataSymbol = Symbol('metadata');
+const product = {
+  name: 'Laptop',
+  price: 999,
+  [metadataSymbol]: {
+    createdAt: '2023-05-15',
+    lastModified: '2023-06-20',
+    internalId: 'PROD-5678'
+  }
+};
+
+console.log(product)
