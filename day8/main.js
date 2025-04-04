@@ -56,6 +56,39 @@ function divide(a, b) {
     } catch (error) {
         console.error("Error:", error.message);
     }
+    finally {
+        console.log("Execution completed.");
+    }
 }
 
 console.log(divide(10, 0)); // Error: Division by zero is not allowed.
+
+const arr = [2,31,1,10,5]
+arr.sort((a,b)=>b-a)
+console.log(arr)
+const sortobj = [
+    {
+        id:1,
+        year:2001
+    },
+    {
+        id:2,
+        year:2003
+    },
+    {
+        id:3,
+        year:2002
+    },
+]
+sortobj.sort((a,b)=>a.year-b.year)
+console.log(sortobj)
+
+var message = "Global message";
+
+function showMessage() {
+    console.log(message); // Accessing the local variable
+    // var message = "Local message"; // This "shadows" the global variable
+}
+
+showMessage();
+console.log(message); 
