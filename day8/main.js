@@ -108,3 +108,13 @@ console.log(specialValue.valueOf());         // 42 (the primitive value)
 console.log(specialValue.description);       // "The answer to life, the universe, and everything"
 console.log(specialValue.unit);              // "light-years"
 console.log(specialValue.calculateDouble()); // 84
+
+// Example showing why new Number() can be problematic
+const primitiveNum = 5;
+const objectNum = new Number(5);
+
+console.log(primitiveNum == objectNum);  // true (coercion happens)
+console.log(primitiveNum === objectNum); // false (different types)
+
+// JavaScript already handles method access on primitives:
+console.log((123).toString()); // "123" - works without new Number()
