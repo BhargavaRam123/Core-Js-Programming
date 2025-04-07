@@ -92,3 +92,19 @@ function showMessage() {
 
 showMessage();
 console.log(message); 
+
+// Create a Number object
+const specialValue = new Number(42);
+
+// Attach custom properties
+specialValue.description = "The answer to life, the universe, and everything";
+specialValue.unit = "light-years";
+specialValue.calculateDouble = function() {
+  return this.valueOf() * 2;
+};
+
+// Access the properties and methods
+console.log(specialValue.valueOf());         // 42 (the primitive value)
+console.log(specialValue.description);       // "The answer to life, the universe, and everything"
+console.log(specialValue.unit);              // "light-years"
+console.log(specialValue.calculateDouble()); // 84
