@@ -122,3 +122,5 @@ console.log((123).toString()); // "123" - works without new Number()
 
 //command to tell whther the repository is initialized or not
 // git rev-parse --is-inside-work-tree
+
+//git clone -b <branch-name> http url
